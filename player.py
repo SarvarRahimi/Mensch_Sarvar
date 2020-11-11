@@ -11,7 +11,6 @@ class Player:
         else:
             raise ValueError('this color is not value!')
 
-        self.piece_in_home = 4
-        self.piece_in_yard = 0
-        self.win_piece = 0
-        self.pieces = [Peace(self.color, self) for _ in range(self.piece_in_home)]
+        self.pieces_in_home = [Peace(self.color, self) for _ in range(4)]
+        self.piece_in_yard = []
+        self.win_piece = []

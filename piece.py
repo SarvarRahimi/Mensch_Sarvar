@@ -28,20 +28,24 @@ class Peace:
             self.position = Peace.path[self.color][self.index]
             self.count += 1
             self.is_in_home = False
-            self.player.piece_in_home -= 1
-            self.player.piece_in_yard += 1
+            self.player.piece_in_yard.append(self)
+            self.player.piece_in_home.remove(self)
+
         else:
             self.index += number
             self.position = Peace.path[self.color][self.index]
+            self.count += number
 
     def remove(self):
         self.position = self.home_positions[self.color]
         self.is_in_home = True
-        self.player.piece_in_home += 1
-        self.player.piece_in_yard -= 1
+        self.player.piece_in_yard.append(self)
+        self.player.piece_in_home.remove(self)
+        self.count = 0
 
     def win(self):
         if self.count == 25:
             self.win = True
             self.position = self.win_positions[self.color]
-            self.player.win_piece += 1
+            self.player.win_piece.append(self)
+            self.player.piece_in_yard.remove(self)
