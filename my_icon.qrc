@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>icons/add_person.png</file>
+    <file>icons/start.png</file>
+    <file>icons/exit.png</file>
+    <file>icons/new.png</file>
+    <file>icons/five.png</file>
+    <file>icons/four.png</file>
+    <file>icons/one.png</file>
+    <file>icons/six.png</file>
+    <file>icons/three.png</file>
+    <file>icons/two.png</file>
+    <file>icons/cycle_blue.png</file>
+    <file>icons/cycle_green.png</file>
+    <file>icons/cycle_red.png</file>
+    <file>icons/cycle_white.png</file>
+    <file>icons/cycle_yellow.png</file>
+    <file>icons/pawn_blue.png</file>
+    <file>icons/pawn_green.png</file>
+    <file>icons/pawn_red.png</file>
+    <file>icons/pawn_yellow.png</file>
+  </qresource>
+</RCC>
