@@ -11,8 +11,8 @@ class Piece(QPushButton):
         self.setVisible(False)
         self.setGeometry(310, 340, 50, 50)
         self.icon = QIcon()
-        self.icon.addPixmap(QPixmap(f'ressource/game_piece_{color}.png'), QIcon.Normal)
-        self.icon.addPixmap(QPixmap(f'ressource/game_piece_{color}_disabled.png'), QIcon.Disabled)
+        self.icon.addPixmap(QPixmap(f'icons/pawn_{color}.png'), QIcon.Normal)
+        self.icon.addPixmap(QPixmap(f'icons/pawn_{color}.png'), QIcon.Disabled)
         self.setIcon(self.icon)
         self.setIconSize(QSize(50, 50))
         self.setStyleSheet("""border-color: rgba(255, 255, 255, 0);
