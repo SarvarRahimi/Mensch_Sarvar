@@ -1,52 +1,52 @@
-class Peace:
-    path = {
-        'blue': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
-        'red': [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 1, 2, 3, 4, 5, 6],
-        'green': [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-        'yellow': [19, 20, 21, 22, 23, 24, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
-    }
+from PyQt5.QtCore import QPropertyAnimation, QSequentialAnimationGroup
+from PyQt5.QtCore import QSize
+from PyQt5.QtGui import QIcon, QPixmap
+from PyQt5.QtWidgets import QPushButton
 
-    def __init__(self, color, player):
-        self.allow_colors = ['red', 'green', 'yellow', 'blue']
 
-        if color in self.allow_colors:
-            self.color = color
-        else:
-            raise ValueError('this color is not value!')
+class Piece(QPushButton):
+    def __init__(self, parent, color, home, paths):
+        super().__init__(parent)
+        self.setDisabled(True)
+        self.setVisible(False)
+        self.setGeometry(310, 340, 50, 50)
+        self.icon = QIcon()
+        self.icon.addPixmap(QPixmap(f'ressource/game_piece_{color}.png'), QIcon.Normal)
+        self.icon.addPixmap(QPixmap(f'ressource/game_piece_{color}_disabled.png'), QIcon.Disabled)
+        self.setIcon(self.icon)
+        self.setIconSize(QSize(50, 50))
+        self.setStyleSheet("""border-color: rgba(255, 255, 255, 0);
+                              background-color: rgba(255, 255, 255, 0);""")
+        self.color = color
+        self.setStatusTip(self.color.capitalize() + ' Piece')
+        self.home = home
+        self.paths = paths
 
-        self.home_positions = {'red': 25, 'green': 26, 'yellow': 27, 'blue': 28}
-        self.win_positions = {'red': 29, 'green': 30, 'yellow': 31, 'blue': 32}
-        self.position = self.home_positions[self.color]
-        self.is_in_home = True
-        self.player = player
-        self.count = 0
-        self.win = False
-        self.index = 0
+    def is_in_home(self):
+        return self.geometry() in [home.geometry() for home in self.home]
+
+    def is_in_game(self):
+        return self.geometry() in [position.geometry() for position in self.paths[:-4]]
+
+    def is_win(self):
+        return self.geometry() in [position.geometry() for position in self.paths[-4:]]
 
     def move(self, number):
-        if self.is_in_home:
-            self.position = Peace.path[self.color][self.index]
-            self.count += 1
-            self.is_in_home = False
-            self.player.piece_in_yard.append(self)
-            self.player.piece_in_home.remove(self)
-
+        delay = 300
+        if self.is_in_home():
+            self.parent().anim = QPropertyAnimation(self, b"geometry")
+            self.parent().anim.setDuration(delay)
+            self.parent().anim.setEndValue(self.paths[0].geometry())
+            self.parent().anim.start()
         else:
-            self.index += number
-            self.position = Peace.path[self.color][self.index]
-            self.count += number
-
-    def remove(self):
-        self.position = self.home_positions[self.color]
-        self.is_in_home = True
-        self.player.piece_in_yard.append(self)
-        self.player.piece_in_home.remove(self)
-        self.count = 0
-
-    def win(self):
-        if self.count == 25:
-            self.win = True
-            self.position = self.win_positions[self.color]
-            self.player.win_piece.append(self)
-            self.player.piece_in_yard.remove(self)
-
+            delay *= number
+            pic_index = [p.geometry() for p in self.paths].index(self.geometry())
+            self.parent().anim_grp = QSequentialAnimationGroup()
+            for i in range(number):
+                self.parent().anim = QPropertyAnimation(self, b"geometry")
+                self.parent().anim.setDuration(300)
+                self.parent().anim.setStartValue(self.paths[pic_index + i].geometry())
+                self.parent().anim.setEndValue(self.paths[pic_index + i + 1].geometry())
+                self.parent().anim_grp.addAnimation(self.parent().anim)
+            self.parent().anim_grp.start()
+        return delay + 100
