@@ -49,3 +49,4 @@ class Peace:
             self.position = self.win_positions[self.color]
             self.player.win_piece.append(self)
             self.player.piece_in_yard.remove(self)
+
