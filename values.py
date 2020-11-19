@@ -54,7 +54,8 @@ def set_val(parent):
     }
 
     parent.pieces = {
-        'yellow': [Piece(parent.pieces_board, 'yellow', parent.home['yellow'], parent.paths['yellow']) for _ in range(4)],
+        'yellow': [Piece(parent.pieces_board, 'yellow', parent.home['yellow'], parent.paths['yellow'])
+                   for _ in range(4)],
         'red': [Piece(parent.pieces_board, 'red', parent.home['red'], parent.paths['red']) for _ in range(4)],
         'blue': [Piece(parent.pieces_board, 'blue', parent.home['blue'], parent.paths['blue']) for _ in range(4)],
         'green': [Piece(parent.pieces_board, 'green', parent.home['green'], parent.paths['green']) for _ in range(4)]
