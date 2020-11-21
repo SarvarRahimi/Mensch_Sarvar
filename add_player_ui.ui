@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Login</string>
   </property>
-  <widget class="QPushButton" name="cancel">
+  <widget class="QPushButton" name="cancel_btn">
    <property name="geometry">
     <rect>
      <x>270</x>
@@ -30,6 +30,9 @@
    </property>
    <property name="text">
     <string>Cancel</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QLabel" name="color_label">
@@ -57,7 +60,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     <string>Color</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="username_line_edit">
+  <widget class="QLineEdit" name="username_box">
    <property name="geometry">
     <rect>
      <x>148</x>
@@ -76,7 +79,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLineEdit" name="password_line_edit">
+  <widget class="QLineEdit" name="password_box">
    <property name="geometry">
     <rect>
      <x>148</x>
@@ -95,7 +98,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     <enum>QLineEdit::Password</enum>
    </property>
   </widget>
-  <widget class="QPushButton" name="login">
+  <widget class="QPushButton" name="login_btn">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -112,6 +115,9 @@ background-color: rgba(255, 255, 255, 0);</string>
    </property>
    <property name="text">
     <string>Login</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QLabel" name="username_label">
@@ -139,7 +145,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     <string>Username</string>
    </property>
   </widget>
-  <widget class="QComboBox" name="color_combo_box">
+  <widget class="QComboBox" name="color_box">
    <property name="geometry">
     <rect>
      <x>148</x>

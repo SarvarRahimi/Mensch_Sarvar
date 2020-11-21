@@ -7,8 +7,7 @@ def set_val(parent):
     parent.players = {}
     parent.names = [parent.player_1, parent.player_2, parent.player_3, parent.player_4]
     parent.buttons = [parent.Add_Player, parent.Start_Game, parent.New_Game, parent.Exit, parent.Roll_Button]
-    parent.colors = {'yellow': 'rgb(255, 255, 0)', 'red': 'rgb(255, 0, 0)', 'blue': 'rgb(2, 133, 255)',
-                     'green': 'rgb(0, 255, 0)'}
+    parent.colors = {'yellow': '#ffff00', 'red': '#ff0000', 'blue': '#0285ff', 'green': '#00ff00'}
     parent.roll_nums = {1: 'icons/one.png', 2: 'icons/two.png', 3: 'icons/three.png', 4: 'icons/four.png',
                         5: 'icons/five.png', 6: 'icons/six.png'}
 

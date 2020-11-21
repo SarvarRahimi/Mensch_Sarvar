@@ -1,6 +1,4 @@
 from PyQt5.QtWidgets import QApplication
-
-
 from add_player import Login
 from new_game import new_game_func
 
