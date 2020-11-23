@@ -5,7 +5,7 @@ from piece import Piece
 def set_val(parent):
     parent.setWindowTitle('Mensch Game')
     parent.setWindowIcon(QIcon('ressource/dice_6.png'))
-    parent.setGeometry(200, 40, 1150, 980)
+    parent.setGeometry(200, 40, 956, 763)
 
     parent.bases = {
         'yellow': [parent.base_yellow_0, parent.base_yellow_1, parent.base_yellow_2, parent.base_yellow_3],

@@ -14,7 +14,7 @@ def new_game_func(parent, msgbox=True):
             for pic in parent.pieces[key]:
                 pic.setDisabled(True)
                 pic.setVisible(False)
-                pic.setGeometry(410, 410, 69, 69)
+                pic.setGeometry(330, 330, 60, 60)
 
         parent.players.clear()
 

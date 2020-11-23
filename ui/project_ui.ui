@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1150</width>
-    <height>980</height>
+    <width>956</width>
+    <height>763</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,7 +29,7 @@
       <x>10</x>
       <y>360</y>
       <width>221</width>
-      <height>391</height>
+      <height>361</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -40,8 +40,8 @@ border-radius: 12px;</string>
     <widget class="QLabel" name="turn_name">
      <property name="geometry">
       <rect>
-       <x>15</x>
-       <y>30</y>
+       <x>10</x>
+       <y>20</y>
        <width>200</width>
        <height>61</height>
       </rect>
@@ -78,7 +78,7 @@ border-radius: 12px;</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>140</y>
+       <y>120</y>
        <width>200</width>
        <height>70</height>
       </rect>
@@ -106,10 +106,10 @@ border-radius: 12px;</string>
     <widget class="QLabel" name="dice_label">
      <property name="geometry">
       <rect>
-       <x>60</x>
-       <y>260</y>
-       <width>98</width>
-       <height>98</height>
+       <x>50</x>
+       <y>217</y>
+       <width>111</width>
+       <height>111</height>
       </rect>
      </property>
      <property name="statusTip">
@@ -122,7 +122,7 @@ border-radius: 12px;</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../ressource/dice_6.png</pixmap>
+      <pixmap>../ressource/dice_0.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -134,8 +134,8 @@ border-radius: 12px;</string>
      <rect>
       <x>240</x>
       <y>10</y>
-      <width>900</width>
-      <height>900</height>
+      <width>701</width>
+      <height>711</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -147,23 +147,21 @@ border-radius: 12px;</string>
      <property name="geometry">
       <rect>
        <x>31</x>
-       <y>411</y>
-       <width>69</width>
-       <height>69</height>
+       <y>330</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -172,24 +170,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_blue_1">
      <property name="geometry">
       <rect>
-       <x>411</x>
-       <y>183</y>
-       <width>69</width>
-       <height>69</height>
+       <x>331</x>
+       <y>150</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Blue Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(2, 133, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -198,24 +194,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="red_7">
      <property name="geometry">
       <rect>
-       <x>335</x>
-       <y>107</y>
-       <width>69</width>
-       <height>69</height>
+       <x>271</x>
+       <y>90</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -224,24 +218,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_blue_3">
      <property name="geometry">
       <rect>
-       <x>411</x>
-       <y>335</y>
-       <width>69</width>
-       <height>69</height>
+       <x>330</x>
+       <y>270</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Blue Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(2, 133, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -250,24 +242,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_red_0">
      <property name="geometry">
       <rect>
-       <x>107</x>
-       <y>411</y>
-       <width>69</width>
-       <height>69</height>
+       <x>90</x>
+       <y>330</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Red Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 0, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -276,24 +266,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_red_3">
      <property name="geometry">
       <rect>
-       <x>335</x>
-       <y>411</y>
-       <width>69</width>
-       <height>69</height>
+       <x>270</x>
+       <y>330</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Red Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 0, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -302,24 +290,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_red_2">
      <property name="geometry">
       <rect>
-       <x>259</x>
-       <y>411</y>
-       <width>69</width>
-       <height>69</height>
+       <x>210</x>
+       <y>330</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Red Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 0, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -328,24 +314,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="red_1">
      <property name="geometry">
       <rect>
-       <x>107</x>
-       <y>335</y>
-       <width>69</width>
-       <height>69</height>
+       <x>90</x>
+       <y>270</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -354,24 +338,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_red_1">
      <property name="geometry">
       <rect>
-       <x>183</x>
-       <y>411</y>
-       <width>69</width>
-       <height>69</height>
+       <x>150</x>
+       <y>330</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Red Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 0, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -380,24 +362,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_blue_2">
      <property name="geometry">
       <rect>
-       <x>715</x>
-       <y>107</y>
-       <width>69</width>
-       <height>69</height>
+       <x>570</x>
+       <y>90</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Blue Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(2, 133, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -406,24 +386,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="start_red">
      <property name="geometry">
       <rect>
-       <x>31</x>
-       <y>335</y>
-       <width>69</width>
-       <height>69</height>
+       <x>30</x>
+       <y>270</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Red Start</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 0, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -432,24 +410,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="red_3">
      <property name="geometry">
       <rect>
-       <x>259</x>
-       <y>335</y>
-       <width>69</width>
-       <height>69</height>
+       <x>210</x>
+       <y>270</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -458,24 +434,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="red_4">
      <property name="geometry">
       <rect>
-       <x>335</x>
-       <y>335</y>
-       <width>69</width>
-       <height>69</height>
+       <x>270</x>
+       <y>270</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -484,24 +458,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="blue_4">
      <property name="geometry">
       <rect>
-       <x>487</x>
-       <y>335</y>
-       <width>69</width>
-       <height>69</height>
+       <x>390</x>
+       <y>270</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -510,24 +482,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_blue_3">
      <property name="geometry">
       <rect>
-       <x>791</x>
-       <y>107</y>
-       <width>69</width>
-       <height>69</height>
+       <x>630</x>
+       <y>90</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Blue Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(2, 133, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -536,24 +506,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="red_6">
      <property name="geometry">
       <rect>
-       <x>335</x>
-       <y>183</y>
-       <width>69</width>
-       <height>69</height>
+       <x>271</x>
+       <y>150</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -562,24 +530,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="blue_1">
      <property name="geometry">
       <rect>
-       <x>487</x>
-       <y>107</y>
-       <width>69</width>
-       <height>69</height>
+       <x>391</x>
+       <y>93</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -588,24 +554,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="red_2">
      <property name="geometry">
       <rect>
-       <x>183</x>
-       <y>335</y>
-       <width>69</width>
-       <height>69</height>
+       <x>150</x>
+       <y>270</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -614,24 +578,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_red_3">
      <property name="geometry">
       <rect>
-       <x>107</x>
-       <y>107</y>
-       <width>69</width>
-       <height>69</height>
+       <x>90</x>
+       <y>90</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Red Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 0, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -640,24 +602,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_blue_0">
      <property name="geometry">
       <rect>
-       <x>411</x>
-       <y>107</y>
-       <width>69</width>
-       <height>69</height>
+       <x>331</x>
+       <y>90</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Blue Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(2, 133, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -666,24 +626,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="red_5">
      <property name="geometry">
       <rect>
-       <x>335</x>
-       <y>259</y>
-       <width>69</width>
-       <height>69</height>
+       <x>271</x>
+       <y>210</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -692,24 +650,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_blue_2">
      <property name="geometry">
       <rect>
-       <x>411</x>
-       <y>259</y>
-       <width>69</width>
-       <height>69</height>
+       <x>331</x>
+       <y>210</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Blue Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(2, 133, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -718,24 +674,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="blue_2">
      <property name="geometry">
       <rect>
-       <x>487</x>
-       <y>183</y>
-       <width>69</width>
-       <height>69</height>
+       <x>391</x>
+       <y>150</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -744,24 +698,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="blue_6">
      <property name="geometry">
       <rect>
-       <x>639</x>
-       <y>335</y>
-       <width>69</width>
-       <height>69</height>
+       <x>510</x>
+       <y>270</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -770,24 +722,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="blue_7">
      <property name="geometry">
       <rect>
-       <x>715</x>
-       <y>335</y>
-       <width>69</width>
-       <height>69</height>
+       <x>570</x>
+       <y>270</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -796,24 +746,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="blue_5">
      <property name="geometry">
       <rect>
-       <x>563</x>
-       <y>335</y>
-       <width>69</width>
-       <height>69</height>
+       <x>450</x>
+       <y>270</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -822,24 +770,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="blue_3">
      <property name="geometry">
       <rect>
-       <x>487</x>
-       <y>259</y>
-       <width>69</width>
-       <height>69</height>
+       <x>391</x>
+       <y>210</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -848,24 +794,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="blue_8">
      <property name="geometry">
       <rect>
-       <x>791</x>
-       <y>335</y>
-       <width>69</width>
-       <height>69</height>
+       <x>630</x>
+       <y>270</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -874,24 +818,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="yellow_4">
      <property name="geometry">
       <rect>
-       <x>335</x>
-       <y>487</y>
-       <width>69</width>
-       <height>69</height>
+       <x>270</x>
+       <y>387</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -900,24 +842,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="yellow_6">
      <property name="geometry">
       <rect>
-       <x>183</x>
-       <y>487</y>
-       <width>69</width>
-       <height>69</height>
+       <x>150</x>
+       <y>387</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -926,24 +866,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="green_4">
      <property name="geometry">
       <rect>
-       <x>487</x>
-       <y>487</y>
-       <width>69</width>
-       <height>69</height>
+       <x>390</x>
+       <y>387</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -952,24 +890,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_yellow_2">
      <property name="geometry">
       <rect>
-       <x>411</x>
-       <y>563</y>
-       <width>69</width>
-       <height>69</height>
+       <x>330</x>
+       <y>450</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Yellow Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -978,24 +914,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="green_2">
      <property name="geometry">
       <rect>
-       <x>639</x>
-       <y>487</y>
-       <width>69</width>
-       <height>69</height>
+       <x>510</x>
+       <y>387</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1004,24 +938,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="yellow_5">
      <property name="geometry">
       <rect>
-       <x>259</x>
-       <y>487</y>
-       <width>69</width>
-       <height>69</height>
+       <x>210</x>
+       <y>387</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1030,24 +962,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_green_2">
      <property name="geometry">
       <rect>
-       <x>563</x>
-       <y>411</y>
-       <width>69</width>
-       <height>69</height>
+       <x>450</x>
+       <y>330</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Green Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(0, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1057,23 +987,21 @@ background-color: rgba(255, 255, 255, 0);</string>
      <property name="geometry">
       <rect>
        <x>31</x>
-       <y>487</y>
-       <width>69</width>
-       <height>69</height>
+       <y>387</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1082,24 +1010,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="green_1">
      <property name="geometry">
       <rect>
-       <x>715</x>
-       <y>487</y>
-       <width>69</width>
-       <height>69</height>
+       <x>570</x>
+       <y>387</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1108,24 +1034,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="green_6">
      <property name="geometry">
       <rect>
-       <x>487</x>
-       <y>639</y>
-       <width>69</width>
-       <height>69</height>
+       <x>390</x>
+       <y>510</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1134,24 +1058,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="green_3">
      <property name="geometry">
       <rect>
-       <x>563</x>
-       <y>487</y>
-       <width>69</width>
-       <height>69</height>
+       <x>450</x>
+       <y>387</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1161,23 +1083,21 @@ background-color: rgba(255, 255, 255, 0);</string>
      <property name="geometry">
       <rect>
        <x>31</x>
-       <y>715</y>
-       <width>69</width>
-       <height>69</height>
+       <y>570</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Yellow Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1186,24 +1106,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_yellow_1">
      <property name="geometry">
       <rect>
-       <x>107</x>
-       <y>715</y>
-       <width>69</width>
-       <height>69</height>
+       <x>90</x>
+       <y>570</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Yellow Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1212,24 +1130,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_green_1">
      <property name="geometry">
       <rect>
-       <x>639</x>
-       <y>411</y>
-       <width>69</width>
-       <height>69</height>
+       <x>510</x>
+       <y>330</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Green Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(0, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1238,24 +1154,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_green_0">
      <property name="geometry">
       <rect>
-       <x>715</x>
-       <y>411</y>
-       <width>69</width>
-       <height>69</height>
+       <x>570</x>
+       <y>330</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Green Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(0, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1264,24 +1178,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="yellow_3">
      <property name="geometry">
       <rect>
-       <x>335</x>
-       <y>563</y>
-       <width>69</width>
-       <height>69</height>
+       <x>270</x>
+       <y>450</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1290,24 +1202,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="blue_9">
      <property name="geometry">
       <rect>
-       <x>791</x>
-       <y>411</y>
-       <width>69</width>
-       <height>69</height>
+       <x>630</x>
+       <y>330</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1316,24 +1226,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="green_5">
      <property name="geometry">
       <rect>
-       <x>487</x>
-       <y>563</y>
-       <width>69</width>
-       <height>69</height>
+       <x>390</x>
+       <y>450</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1342,24 +1250,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_yellow_1">
      <property name="geometry">
       <rect>
-       <x>411</x>
-       <y>639</y>
-       <width>69</width>
-       <height>69</height>
+       <x>330</x>
+       <y>510</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Yellow Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1368,24 +1274,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="yellow_1">
      <property name="geometry">
       <rect>
-       <x>335</x>
-       <y>715</y>
-       <width>69</width>
-       <height>69</height>
+       <x>270</x>
+       <y>570</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1394,24 +1298,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_green_3">
      <property name="geometry">
       <rect>
-       <x>487</x>
-       <y>411</y>
-       <width>69</width>
-       <height>69</height>
+       <x>390</x>
+       <y>329</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Green Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(0, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1420,24 +1322,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="yellow_7">
      <property name="geometry">
       <rect>
-       <x>107</x>
-       <y>487</y>
-       <width>69</width>
-       <height>69</height>
+       <x>90</x>
+       <y>387</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1446,24 +1346,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_yellow_3">
      <property name="geometry">
       <rect>
-       <x>411</x>
-       <y>487</y>
-       <width>69</width>
-       <height>69</height>
+       <x>330</x>
+       <y>387</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Yellow Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1472,24 +1370,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="start_green">
      <property name="geometry">
       <rect>
-       <x>791</x>
-       <y>487</y>
-       <width>69</width>
-       <height>69</height>
+       <x>630</x>
+       <y>387</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Green Start</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(0, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1498,24 +1394,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="yellow_2">
      <property name="geometry">
       <rect>
-       <x>335</x>
-       <y>639</y>
-       <width>69</width>
-       <height>69</height>
+       <x>270</x>
+       <y>510</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1524,24 +1418,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_green_0">
      <property name="geometry">
       <rect>
-       <x>715</x>
-       <y>715</y>
-       <width>69</width>
-       <height>69</height>
+       <x>570</x>
+       <y>570</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Green Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(0, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1550,24 +1442,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_green_1">
      <property name="geometry">
       <rect>
-       <x>791</x>
-       <y>715</y>
-       <width>69</width>
-       <height>69</height>
+       <x>630</x>
+       <y>570</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Green Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(0, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1576,24 +1466,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="green_7">
      <property name="geometry">
       <rect>
-       <x>487</x>
-       <y>715</y>
-       <width>69</width>
-       <height>69</height>
+       <x>390</x>
+       <y>570</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1602,24 +1490,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="home_yellow_0">
      <property name="geometry">
       <rect>
-       <x>411</x>
-       <y>715</y>
-       <width>69</width>
-       <height>69</height>
+       <x>330</x>
+       <y>570</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Yellow Home</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1628,24 +1514,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="start_yellow">
      <property name="geometry">
       <rect>
-       <x>335</x>
-       <y>791</y>
-       <width>69</width>
-       <height>69</height>
+       <x>270</x>
+       <y>630</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Yellow</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1654,24 +1538,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_yellow_3">
      <property name="geometry">
       <rect>
-       <x>107</x>
-       <y>791</y>
-       <width>69</width>
-       <height>69</height>
+       <x>90</x>
+       <y>630</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Yellow Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1680,24 +1562,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_green_2">
      <property name="geometry">
       <rect>
-       <x>715</x>
-       <y>791</y>
-       <width>69</width>
-       <height>69</height>
+       <x>570</x>
+       <y>630</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Green Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(0, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1706,24 +1586,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_green_3">
      <property name="geometry">
       <rect>
-       <x>791</x>
-       <y>791</y>
-       <width>69</width>
-       <height>69</height>
+       <x>630</x>
+       <y>630</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Green Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(0, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1733,23 +1611,21 @@ background-color: rgba(255, 255, 255, 0);</string>
      <property name="geometry">
       <rect>
        <x>31</x>
-       <y>791</y>
-       <width>69</width>
-       <height>69</height>
+       <y>630</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Yellow Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1758,24 +1634,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="green_8">
      <property name="geometry">
       <rect>
-       <x>487</x>
-       <y>791</y>
-       <width>69</width>
-       <height>69</height>
+       <x>390</x>
+       <y>630</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1784,24 +1658,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="green_9">
      <property name="geometry">
       <rect>
-       <x>411</x>
-       <y>791</y>
-       <width>69</width>
-       <height>69</height>
+       <x>330</x>
+       <y>630</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1812,22 +1684,20 @@ background-color: rgba(255, 255, 255, 0);</string>
       <rect>
        <x>31</x>
        <y>31</y>
-       <width>69</width>
-       <height>69</height>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Red Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 0, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1837,23 +1707,21 @@ background-color: rgba(255, 255, 255, 0);</string>
      <property name="geometry">
       <rect>
        <x>31</x>
-       <y>107</y>
-       <width>69</width>
-       <height>69</height>
+       <y>90</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Red Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 0, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1862,24 +1730,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_blue_0">
      <property name="geometry">
       <rect>
-       <x>715</x>
+       <x>570</x>
        <y>31</y>
-       <width>69</width>
-       <height>69</height>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Blue Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(2, 133, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1888,24 +1754,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="red_9">
      <property name="geometry">
       <rect>
-       <x>411</x>
+       <x>331</x>
        <y>31</y>
-       <width>69</width>
-       <height>69</height>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1914,24 +1778,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="start_blue">
      <property name="geometry">
       <rect>
-       <x>487</x>
+       <x>391</x>
        <y>31</y>
-       <width>69</width>
-       <height>69</height>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Blue Start</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(2, 133, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1940,24 +1802,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="red_8">
      <property name="geometry">
       <rect>
-       <x>335</x>
+       <x>271</x>
        <y>31</y>
-       <width>69</width>
-       <height>69</height>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Game Way</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1966,24 +1826,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_blue_1">
      <property name="geometry">
       <rect>
-       <x>791</x>
+       <x>630</x>
        <y>31</y>
-       <width>69</width>
-       <height>69</height>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Blue Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(2, 133, 255);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1992,24 +1850,22 @@ background-color: rgba(255, 255, 255, 0);</string>
     <widget class="QLabel" name="base_red_1">
      <property name="geometry">
       <rect>
-       <x>107</x>
+       <x>90</x>
        <y>31</y>
-       <width>69</width>
-       <height>69</height>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="statusTip">
       <string>Red Base</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-color: rgba(255, 255, 255, 0);
-background-color: rgba(255, 255, 255, 0);</string>
+      <string notr="true">background-color: rgb(255, 0, 0);
+border: 2px solid black;
+border-radius:25px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -2222,7 +2078,7 @@ border-radius: 12px;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1150</width>
+     <width>956</width>
      <height>21</height>
     </rect>
    </property>

@@ -9,6 +9,7 @@ from finish_dialog import FinishDialog
 class Game:
 
     def __init__(self, parent):
+
         self.parent = parent
         self.num = None
         self.play_dict = None

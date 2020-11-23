@@ -9,7 +9,7 @@ class Piece(QPushButton):
         super().__init__(parent)
         self.setDisabled(True)
         self.setVisible(False)
-        self.setGeometry(410, 410, 69, 69)
+        self.setGeometry(330, 330, 60, 60)
 
         self.__icon = QIcon()
         self.__icon.addPixmap(QPixmap(f'ressource/game_piece_{color}.png'), QIcon.Normal)
