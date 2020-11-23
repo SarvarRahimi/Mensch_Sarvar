@@ -1,6 +1,4 @@
 from PyQt5.QtWidgets import QApplication
-
-
 from login_dialog import LoginDialog
 from new_game import new_game_func
 

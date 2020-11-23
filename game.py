@@ -1,42 +1,34 @@
-import logging
 from functools import reduce
 from random import randint
 
 from PyQt5.QtCore import QPropertyAnimation, QTimer
 from PyQt5.QtGui import QPixmap
-
 from finish_dialog import FinishDialog
-from gif_display import gif_display
 
 
 class Game:
 
     def __init__(self, parent):
         self.parent = parent
-
-        self.game_logger = logging.getLogger('mensch')
-        self.file_handler = logging.FileHandler('mensch.log')
-        self.file_handler.setFormatter(logging.Formatter('%(asctime)s %(message)s', datefmt='%y-%m-%d %H:%M:%S'))
-        self.game_logger.setLevel(logging.INFO)
-        self.game_logger.addHandler(self.file_handler)
-
+        self.num = None
+        self.play_dict = None
+        self.win_list = None
+        self.color_list = None
+        self.turn = None
         self.first_step()
-
         self.parent.roll_dice.clicked.connect(lambda: self.onClick_roll_dice())
-
         for pic_list in self.parent.pieces.values():
             for pic in pic_list:
                 pic.clicked.connect(lambda tmp, p=pic: self.move_piece(p))
-
-    def __del__(self):
-        self.file_handler.close()
 
     def first_step(self):
         self.parent.add_player.setDisabled(True)
         self.parent.start_game.setDisabled(True)
         self.parent.new_game.setEnabled(True)
         self.parent.roll_dice.setEnabled(True)
-        self.num, self.play_dict, self.win_list = 0, self.parent.players, []
+        self.num = 0
+        self.play_dict = self.parent.players
+        self.win_list = []
         self.color_list = [*self.parent.players.keys()]
         self.turn = self.color_list[0]
         self.parent.turn_name.setText(f'Turn: {self.play_dict[self.turn].username}')
@@ -57,28 +49,26 @@ class Game:
         self.parent.roll_dice.setDisabled(True)
 
         length = 1.3
-        gif_display(self.parent, 'ressource/roll_dice.gif', 90, length)
-        QTimer.singleShot(length * 1000, lambda: inner_func())
+        QTimer.singleShot(length * 500, lambda: self.inner_func())
 
-        def inner_func():
-            nonlocal self
-            self.parent.dice_label.setPixmap(QPixmap(self.parent.roll_nums[self.num]))
+    def inner_func(self):
+        self.parent.dice_label.setPixmap(QPixmap(self.parent.roll_nums[self.num]))
 
-            move_dict = self.play_dict[self.turn].has_move(self.num)
-            if reduce((lambda x, y: x or y), move_dict.values()) or self.num == 6:
-                if not reduce((lambda x, y: x or y), move_dict.values()) and self.num == 6:
-                    self.parent.roll_dice.setEnabled(True)
-                for pic, value in move_dict.items():
-                    pic.setEnabled(value)
-            else:
+        move_dict = self.play_dict[self.turn].has_move(self.num)
+        if reduce((lambda x, y: x or y), move_dict.values()) or self.num == 6:
+            if not reduce((lambda x, y: x or y), move_dict.values()) and self.num == 6:
                 self.parent.roll_dice.setEnabled(True)
-                if self.play_dict[self.turn].is_gamer():
-                    self.next_turn()
+            for pic, value in move_dict.items():
+                pic.setEnabled(value)
+        else:
+            self.parent.roll_dice.setEnabled(True)
+            if self.play_dict[self.turn].is_gamer():
+                self.next_turn()
+            else:
+                if self.play_dict[self.turn].roll_num < 2:
+                    self.play_dict[self.turn].roll_num += 1
                 else:
-                    if self.play_dict[self.turn].roll_num < 2:
-                        self.play_dict[self.turn].roll_num += 1
-                    else:
-                        self.next_turn()
+                    self.next_turn()
 
     def move_piece(self, pic):
         deley = pic.smooth_move(self.num)
@@ -103,7 +93,6 @@ class Game:
             if not self.play_dict:
                 names = ' '.join(w[0] for w in self.win_list)
                 colors = ' '.join(w[1] for w in self.win_list)
-                self.game_logger.info(names)
                 self.parent.finish = FinishDialog(self.parent, names, colors)
                 self.parent.finish.exec_()
                 return

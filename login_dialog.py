@@ -2,8 +2,6 @@ from PyQt5.QtCore import QPropertyAnimation, QParallelAnimationGroup
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QDialog, QMessageBox
 from PyQt5.uic import loadUi
-
-# from create_animation import login_animate
 from player import Player
 
 
