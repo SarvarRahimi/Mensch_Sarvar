@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>320</height>
+    <width>400</width>
+    <height>250</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,8 @@
   <widget class="QPushButton" name="cancel_btn">
    <property name="geometry">
     <rect>
-     <x>460</x>
-     <y>260</y>
+     <x>280</x>
+     <y>200</y>
      <width>100</width>
      <height>30</height>
     </rect>
@@ -31,12 +31,15 @@
    <property name="text">
     <string>Cancel</string>
    </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
   </widget>
   <widget class="QLabel" name="color_label">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>160</y>
+     <x>20</x>
+     <y>130</y>
      <width>68</width>
      <height>31</height>
     </rect>
@@ -60,8 +63,8 @@ background-color: rgba(255, 255, 255, 0);</string>
   <widget class="QLineEdit" name="username_line_edit">
    <property name="geometry">
     <rect>
-     <x>258</x>
-     <y>60</y>
+     <x>160</x>
+     <y>30</y>
      <width>222</width>
      <height>32</height>
     </rect>
@@ -79,8 +82,8 @@ background-color: rgba(255, 255, 255, 0);</string>
   <widget class="QLineEdit" name="password_line_edit">
    <property name="geometry">
     <rect>
-     <x>258</x>
-     <y>110</y>
+     <x>160</x>
+     <y>80</y>
      <width>222</width>
      <height>32</height>
     </rect>
@@ -98,8 +101,8 @@ background-color: rgba(255, 255, 255, 0);</string>
   <widget class="QPushButton" name="login_btn">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>260</y>
+     <x>20</x>
+     <y>200</y>
      <width>100</width>
      <height>30</height>
     </rect>
@@ -113,12 +116,15 @@ background-color: rgba(255, 255, 255, 0);</string>
    <property name="text">
     <string>Login</string>
    </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
   </widget>
   <widget class="QLabel" name="username_label">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>60</y>
+     <x>20</x>
+     <y>30</y>
      <width>118</width>
      <height>31</height>
     </rect>
@@ -142,8 +148,8 @@ background-color: rgba(255, 255, 255, 0);</string>
   <widget class="QComboBox" name="color_combo_box">
    <property name="geometry">
     <rect>
-     <x>258</x>
-     <y>160</y>
+     <x>160</x>
+     <y>130</y>
      <width>222</width>
      <height>32</height>
     </rect>
@@ -158,45 +164,28 @@ background-color: rgba(255, 255, 255, 0);</string>
     <property name="text">
      <string>Red</string>
     </property>
-    <property name="icon">
-     <iconset>
-      <normalon>../ressource/game_piece_red.png</normalon>
-     </iconset>
-    </property>
    </item>
    <item>
     <property name="text">
      <string>Blue</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../ressource/game_piece_blue.png</normaloff>../ressource/game_piece_blue.png</iconset>
     </property>
    </item>
    <item>
     <property name="text">
      <string>Green</string>
     </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../ressource/game_piece_green.png</normaloff>../ressource/game_piece_green.png</iconset>
-    </property>
    </item>
    <item>
     <property name="text">
      <string>Yellow</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../ressource/game_piece_yellow.png</normaloff>../ressource/game_piece_yellow.png</iconset>
     </property>
    </item>
   </widget>
   <widget class="QLabel" name="password_label">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>110</y>
+     <x>20</x>
+     <y>80</y>
      <width>113</width>
      <height>31</height>
     </rect>

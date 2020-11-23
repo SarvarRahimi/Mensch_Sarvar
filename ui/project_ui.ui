@@ -2234,6 +2234,7 @@ border-radius: 12px;</string>
      <string>Game</string>
     </property>
     <addaction name="add_player"/>
+    <addaction name="separator"/>
     <addaction name="start_game"/>
     <addaction name="new_game"/>
     <addaction name="separator"/>
@@ -2245,7 +2246,7 @@ border-radius: 12px;</string>
   <action name="add_player">
    <property name="icon">
     <iconset>
-     <normaloff>../ressource/add-user.png</normaloff>../ressource/add-user.png</iconset>
+     <normaloff>../ressource/add_user.png</normaloff>../ressource/add_user.png</iconset>
    </property>
    <property name="text">
     <string>Add Player</string>
@@ -2253,14 +2254,11 @@ border-radius: 12px;</string>
    <property name="statusTip">
     <string>Game ⇒ Add Player</string>
    </property>
-   <property name="shortcut">
-    <string>Ctrl+P</string>
-   </property>
   </action>
   <action name="start_game">
    <property name="icon">
     <iconset>
-     <normaloff>../ressource/racing-flag.png</normaloff>../ressource/racing-flag.png</iconset>
+     <normaloff>../ressource/start.png</normaloff>../ressource/start.png</iconset>
    </property>
    <property name="text">
     <string>Start Game</string>
@@ -2268,14 +2266,11 @@ border-radius: 12px;</string>
    <property name="statusTip">
     <string>Game ⇒ Start Game</string>
    </property>
-   <property name="shortcut">
-    <string>Ctrl+G</string>
-   </property>
   </action>
   <action name="new_game">
    <property name="icon">
     <iconset>
-     <normaloff>../ressource/refresh.png</normaloff>../ressource/refresh.png</iconset>
+     <normaloff>../ressource/new.png</normaloff>../ressource/new.png</iconset>
    </property>
    <property name="text">
     <string>New Game</string>
@@ -2283,23 +2278,17 @@ border-radius: 12px;</string>
    <property name="statusTip">
     <string>Game ⇒ New Game</string>
    </property>
-   <property name="shortcut">
-    <string>Ctrl+N</string>
-   </property>
   </action>
   <action name="exit_game">
    <property name="icon">
     <iconset>
-     <normaloff>../ressource/turn-off.png</normaloff>../ressource/turn-off.png</iconset>
+     <normaloff>../ressource/exit.png</normaloff>../ressource/exit.png</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
    </property>
    <property name="statusTip">
     <string>Game ⇒ Exit</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+Q</string>
    </property>
   </action>
  </widget>
