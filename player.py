@@ -2,12 +2,12 @@ from functools import reduce
 
 
 class Player:
-    def __init__(self, username, pieces, home, paths):
+    def __init__(self, username, pieces, bases, positions):
         self.username = username
         self.pieces = pieces
-        self.home = home
-        self.paths = paths
-        self.roll = 0
+        self.bases = bases
+        self.positions = positions
+        self.roll_num = 0
         for element in self.pieces:
             element.setVisible(True)
 
@@ -19,15 +19,17 @@ class Player:
         for pic in self.pieces:
             list_pics = self.pieces[:]
             list_pics.remove(pic)
-            if pic.is_in_base() and number == 6 and not \
-                    reduce((lambda x, y: x or y), [p.geometry() == self.paths[0].geometry() for p in list_pics]):
+            if pic.is_in_base() and number == 6 and not reduce((lambda x, y: x or y),
+                                                               [p.geometry() == self.positions[0].geometry()
+                                                                for p in list_pics]):
                 res[pic] = True
         for pic in self.pieces:
-            if pic.is_in_game() or pic.is_win():
+            if pic.is_in_game() or pic.is_in_home():
                 list_pics = self.pieces[:]
                 list_pics.remove(pic)
-                p_i = [pos.geometry() for pos in self.paths].index(pic.geometry()) + number
-                if p_i < len(self.paths) and not \
-                        reduce((lambda x, y: x or y), [p.geometry() == self.paths[p_i].geometry() for p in list_pics]):
+                p_i = [pos.geometry() for pos in self.positions].index(pic.geometry()) + number
+                if p_i < len(self.positions) and not reduce((lambda x, y: x or y),
+                                                            [p.geometry() == self.positions[p_i].geometry()
+                                                             for p in list_pics]):
                     res[pic] = True
         return res
