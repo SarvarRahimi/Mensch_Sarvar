@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>760</width>
-    <height>560</height>
+    <width>442</width>
+    <height>506</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,8 +18,8 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>740</width>
-     <height>460</height>
+     <width>421</width>
+     <height>431</height>
     </rect>
    </property>
    <property name="acceptDrops">
@@ -79,8 +79,8 @@ border-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLabel" name="name_4">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>345</y>
+      <x>10</x>
+      <y>320</y>
       <width>400</width>
       <height>80</height>
      </rect>
@@ -125,8 +125,8 @@ border-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLabel" name="name_2">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>185</y>
+      <x>10</x>
+      <y>160</y>
       <width>400</width>
       <height>80</height>
      </rect>
@@ -171,8 +171,8 @@ border-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLabel" name="name_1">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>105</y>
+      <x>10</x>
+      <y>80</y>
       <width>400</width>
       <height>80</height>
      </rect>
@@ -194,8 +194,8 @@ border-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLabel" name="name_3">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>265</y>
+      <x>10</x>
+      <y>240</y>
       <width>400</width>
       <height>80</height>
      </rect>
@@ -219,8 +219,8 @@ border-color: rgba(255, 255, 255, 0);</string>
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>720</width>
-      <height>110</height>
+      <width>401</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="font">
@@ -246,8 +246,8 @@ background-color: rgba(255, 255, 255, 0);</string>
   <widget class="QPushButton" name="new_game_btn">
    <property name="geometry">
     <rect>
-     <x>475</x>
-     <y>500</y>
+     <x>20</x>
+     <y>460</y>
      <width>105</width>
      <height>35</height>
     </rect>
@@ -263,12 +263,15 @@ background-color: rgba(255, 255, 255, 0);</string>
    <property name="text">
     <string>New Game</string>
    </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
   </widget>
   <widget class="QPushButton" name="exit_btn">
    <property name="geometry">
     <rect>
-     <x>600</x>
-     <y>500</y>
+     <x>310</x>
+     <y>460</y>
      <width>105</width>
      <height>35</height>
     </rect>
@@ -283,6 +286,9 @@ background-color: rgba(255, 255, 255, 0);</string>
    </property>
    <property name="text">
     <string>Exit</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>
